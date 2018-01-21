@@ -5,7 +5,9 @@
 		<title>home</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<link rel="stylesheet" type="text/css" href="./css/asset.css">				
+		<link rel="stylesheet" type="text/css" href="./css/asset.css">
+		<link rel="stylesheet" type="text/css" href="./css/loader.css">
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -139,7 +141,20 @@
 				<p>专业描述：在大学期间所学的课程有《计算机组成原理与系统结构》、《数据结构》、《微型计算机技术》、《软件测试》、《计算机操作系统》、《c++程序设计》、《软件工程》、《设计模式》等</p>				
 			</div>
 		</div>
-	</div>	
+	</div>
+
+	<!--载入动画界面-->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+        <div class="load_title">
+            正在加载页面<br>
+            <span>V1.0</span>
+        </div>
+    </div>
+    
+	<script type="text/javascript" src="./js/loader.js"></script>
 	<script type="text/javascript" src="./js/wap.js"></script>
 </body>
 </html>
