@@ -76,7 +76,7 @@ function btn_scroll(){
 
 //当向下滑动时，隐藏菜单栏，当回到顶部时，显示主菜单
 window.onscroll = function () {
-    console.log(window.pageXOffset + " " + window.pageYOffset);
+    // console.log(window.pageXOffset + " " + window.pageYOffset);
     var t = document.documentElement.scrollTop || document.body.scrollTop;
     var menu = document.getElementsByClassName("menu")[0];
     if (t >= 60) {
