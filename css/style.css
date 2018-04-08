@@ -172,6 +172,26 @@ h2~p{
 	color: white;
 }
 
+.item-exp{
+	padding: 0.1rem 0;
+}
+
+.item-exp p{
+	text-indent: 2em;
+}
+.description::before{
+	content: "项目描述:";
+    color: #ff9f20;
+    font-size: 0.16rem;
+    font-weight: 550;
+}
+.duty::before{
+	content:"责任描述:";
+	color: #ff9f20;
+    font-size: 0.16rem;
+    font-weight: 550;
+}
+
 @media screen and (max-width: 321px) {
     body {
         font-size:12px
